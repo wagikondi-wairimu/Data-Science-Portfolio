@@ -6,7 +6,7 @@ A machine learning model using Linear Regression to predict house prices based o
 ## 2. [Titanic Survival Prediction-Logistic Regression](https://github.com/wagikondi-wairimu/titanic-survival-data)
 A machine learning model using Logistic Regression to predict Titanic passengers' survival. The model analyzes features like age, sex, class, and other factors to determine the likelihood of survival. It helps in understanding key patterns that influenced survival during the Titanic disaster.
 
-## 3.[Kyphosis Prediction-Decision Trees and Random Forests](https://github.com/wagikondi-wairimu/Kyphosis-Prediction/upload)
+## 3.[Kyphosis Prediction-Decision Trees and Random Forests](https://github.com/wagikondi-wairimu/Kyphosis-Prediction)
  
 A machine learning project to predict Kyphosis (a medical condition causing spinal deformities) in patients based on features like age, number of vertebrae, and start of treatment. This project uses two models:
 Decision Trees: To build a simple and interpretable model for classification.
