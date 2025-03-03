@@ -2,37 +2,7 @@
 # Site settings
 # Site settings
 title: "Judy Wairimu's Data Science Portfolio"
-description: "Showcasing my data science projects and blogs."
-url: "https://wagikondi-wairimu.github.io"
-baseurl: ""  # Keep empty for root URL
 
-# Theme and layout
+
 theme: "minima"  # Simple, clean theme for a portfolio
 
-# Author info
-author:
-  name: "Judy Wairimu"
-  email: "your-email@example.com"  # Optional
-
-# Navigation
-nav:
-  - Home: "/"
-  - Projects: "/projects"
-  - Blog: "/blog"
-  - About: "/about"
-
-# Social links
-social:
-  github: "https://github.com/wagikondi-wairimu"
-  linkedin: "https://www.linkedin.com/in/judy-wairimu"
-
-# Analytics (Optional)
-google_analytics: "UA-XXXXX-Y"  # Replace with your tracking ID
-
-# SEO
-plugins:
-  - jekyll-seo-tag
-
-# RSS feed (Optional)
-feed:
-  path: "/feed.xml"
