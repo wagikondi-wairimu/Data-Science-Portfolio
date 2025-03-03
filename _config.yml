@@ -1,54 +1,38 @@
 #theme: jekyll-theme-cayman
 # Site settings
-title: "Judy Wairimu's Data Science Portfolio"  # Personalized title
-description: "A showcase of my data science projects, machine learning models, and blogs."
-baseurl: ""  # Leave empty if the site is at the root level
-url: "https://wagikondi-wairimu.github.io"  # Replace with your GitHub Pages URL
+# Site settings
+title: "Judy Wairimu's Data Science Portfolio"
+description: "Showcasing my data science projects and blogs."
+url: "https://wagikondi-wairimu.github.io"
+baseurl: ""  # Keep empty for root URL
 
-# Theme settings (Jekyll theme for simplicity and a clean look)
-theme: "minima"  # Minima is simple and minimal, ideal for portfolios
+# Theme and layout
+theme: "minima"  # Simple, clean theme for a portfolio
 
-# Author information (Personal details about you)
+# Author info
 author:
-  name: "Judy Wairimu"  # Your full name
-  email: "your-email@example.com"  # Optional, you can add your contact email here
+  name: "Judy Wairimu"
+  email: "your-email@example.com"  # Optional
 
-# Navigation settings for pages on your site
+# Navigation
 nav:
   - Home: "/"
   - Projects: "/projects"
   - Blog: "/blog"
-  - About: "/about"  # Optional page for an "About Me" section
+  - About: "/about"
 
-# Exclude certain files from the site (optional)
-exclude:
-  - "README.md"  # Optional, exclude if not needed on the site
-
-# Social media links (update with your personal social media profiles)
+# Social links
 social:
-  github: "https://github.com/wagikondi-wairimu"  # Your GitHub profile
-  linkedin: "https://www.linkedin.com/in/judy-wairimu"  # Optional LinkedIn profile
-  twitter: "https://twitter.com/judywairimu"  # Optional Twitter profile
-  email: "your-email@example.com"  # Your contact email for visitors
+  github: "https://github.com/wagikondi-wairimu"
+  linkedin: "https://www.linkedin.com/in/judy-wairimu"
 
-# Analytics settings (Google Analytics or other tracking services)
-google_analytics: "UA-XXXXX-Y"  # Optional: Google Analytics tracking code if you wish to track site traffic
+# Analytics (Optional)
+google_analytics: "UA-XXXXX-Y"  # Replace with your tracking ID
 
-# Enable custom CSS and add animations for better UX
+# SEO
 plugins:
-  - jekyll-assets  # Allows for asset management
+  - jekyll-seo-tag
 
-# Markdown and Syntax Highlighting settings
-markdown: kramdown  # Markdown processor
-highlighter: rouge  # Syntax highlighter for code blocks
-
-# Permalink settings (how your URL structure appears)
-permalink: /:year/:month/:day/:title/
-
-# SEO settings (SEO optimization for better search engine rankings)
-plugins:
-  - jekyll-seo-tag  # Adds SEO tags automatically
-
-# RSS Feed (if you plan to blog)
+# RSS feed (Optional)
 feed:
-  path: "/feed.xml"  # Enables RSS feed for blog posts
+  path: "/feed.xml"
