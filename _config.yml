@@ -1,8 +1,8 @@
-#theme: jekyll-theme-cayman
+theme: jekyll-theme-cayman
 # Site settings
 # Site settings
 title: "Judy Wairimu's Data Science Portfolio"
 
 
-theme: "minima"  # Simple, clean theme for a portfolio
+#theme: "minima"  # Simple, clean theme for a portfolio
 
